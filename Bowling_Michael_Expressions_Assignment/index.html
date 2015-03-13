@@ -5,6 +5,37 @@
 		<script src="js/script.js"> </script>
 	</head>
 	<body>
-		<!!Write Note Here>
+		<h1>Assignment: Expressions</h1>
+		<h2>Michael Bowling<br> Please Ignore the boxes for now and follow the prompts</h2>
+		<table style="max-width: 360px">
+			<tr>
+				<th colspan="2">Home Brew ABV Calculator</th>
+  			</tr>
+  			<tr>
+  				<td colspan="2">This tool will help you estimate the ABV of your home brewed beer. It is not intended to be used to produce labels, as part of the FDA regulatory guidelines.</td>
+  			</tr>
+  			<tr>
+  				<td>Temperature(degrees F):</td>
+  					<td><input name="temp1" type="text" id="temp1" value="60" size="5" maxlength="5"></td>
+  			</tr>
+  			<tr>
+  				<td>Orignal Gravity:</td>
+  				<td><input name="OG" type="text" id="OG2" value="1.050" size="6" maxlength="6"></td>
+  			</tr>
+  			<tr>
+  				<td>Final Gravity:</td>
+  				<td><input name="FG" type="text" id="FG" value="1.010" size="6" maxlength="6"></td>
+  			</tr>
+  			<tr>
+  				<td>Final Estimated ABV %:</td>
+  				<td><input name="final" type="text" id="final" value="N/A" size="6" maxlength="6"></td>
+  			</tr>
+		</table>
+		<button id="partyOn" onclick="myFunction()">Calculate</button>
 	</body>
+<script>
+	function myFunction() {
+		document.getElementById("partyOn").innerHTML= "Final";
+	}
+	</script>
 </html>
