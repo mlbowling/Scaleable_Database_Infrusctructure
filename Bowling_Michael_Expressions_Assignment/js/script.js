@@ -5,5 +5,7 @@ var OG = prompt("Enter Ogrinal Gravity");//User defined Orignal Gravity
 var FG = prompt("Enter Final Gravity");//User defined Final Gravity
 
 var total = (76.08 * (OG - FG) / (1.775 - OG )) * (FG / 0.794) / Temp;//math equaiption that will esitmate the ABV of a beer.
-var result = "The estimated ABV of your berr is" + total + "% ABV";//defines the result of the equation
+var result = "The estimated ABV of your beer is" + total + "% ABV";//defines the result of the equation
+console.log("The esimated ABV of your beer is" + total + "% ABV");
+
 alert(result);//prompt shows the result of the equation which is an estimated ABV of a home brew beer
